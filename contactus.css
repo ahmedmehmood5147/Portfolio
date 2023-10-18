@@ -4,8 +4,7 @@
 }
 body {
     font-family: arial;
-    background-image: url(example2.jpg);
-    background-repeat: repeat-x;
+    background-color: black;
 }
 .portfolio {
     height: 600px;
