@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: arial;
+    background-image: url(example2.jpg);
+    background-repeat: repeat-x;
+}
+.portfolio {
+    height: 600px;
+    width: 27%;
+    background-color: rgb(67, 66, 66);
+}
+.header {
+    background-color: rgb(67, 66, 66);
+    height: 70px;
+    width: 100%;
+}
+ul {
+    font-family: arial;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    justify-content: space-around;
+    padding: 20px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+ul li:hover {
+    list-style: circle;
+    cursor: pointer;
+}
+.main_card {
+    height: 450px;
+    width: 50%;
+    background-color: rgb(67, 66, 66);
+}
+.username {
+    margin-top: 20px;
+    height: 40px;
+    width: 35%;
+    padding-left: 5px;
+    margin-left: 40px;
+}
+.email {
+    height: 40px;
+    width: 35%;
+    padding-left: 5px;
+    margin-left: 40px;
+}
+.submit {
+    height: 30px;
+    width: 80px;
+}
+.footer {
+    background-color: rgb(67, 66, 66);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.about {
+    color: white;
+}
+.Quicklinks {
+    color: white;
+}
+.support {
+    color: white;
+}
+.WeAccept {
+    color: white;
+}

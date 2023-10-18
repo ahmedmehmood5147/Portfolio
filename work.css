@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: arial;
+}
+ul {
+    font-family: arial;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    justify-content: space-around;
+    padding: 20px;
+}
+.header {
+    background-color: rgb(67, 66, 66);
+    height: 70px;
+    width: 100%;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+ul li:hover {
+    list-style: circle;
+    cursor: pointer;
+}
+h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+.card1 {
+    height: 400px;
+    width: 25%;
+    background-color: rgb(74, 74, 74);
+    border-radius: 30px;
+}
+img {
+    width: 80px;
+}
+p {
+    line-height: 25px;
+}
+.main_div {
+    display: flex;
+    justify-content: space-around;
+}
+.html_div {
+    height: 15px;
+    width: 60%;
+    background-color: rgb(85, 85, 254);
+    border-radius: 15px;
+}
+.css_div2 {
+    height: 15px;
+    background-color: rgb(85, 85, 254);
+
+    width: 60%;
+}
+.css_div {
+    height: 15px;
+    width: 55%;
+    background-color: rgb(214, 212, 212);
+    border-radius: 15px;
+}
+.java_div2 {
+    height: 15px;
+    background-color: rgb(85, 85, 254);
+    width: 50%;
+}
+.java_div {
+    height: 15px;
+    width: 55%;
+    background-color: rgb(214, 212, 212);
+
+    border-radius: 15px;
+}
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(67, 66, 66);
+}
+.footer {
+    background-color: rgb(67, 66, 66);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.about {
+    color: white;
+}
+.Quicklinks {
+    color: white;
+}
+.support {
+    color: white;
+}
+.WeAccept {
+    color: white;
+}
